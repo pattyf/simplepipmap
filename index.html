@@ -126,7 +126,7 @@
   /* Upload Latitude/Longitude markers from data.csv file, show Title in pop-up, and override initial center and zoom to fit all in map */
   var customLayer = L.geoJson(null, {
   onEachFeature: function(feature, layer) {
-	  var popupContent = "doh " + feature.properties.Title;
+	  var popupContent = "<strong> " + feature.properties.Title + </strong>;
 	  popupContent += '<br> <a href="http://google.com" target="_blank" >'+ feature.properties.Address + '</a>';
 	  //popupContent += '<br> <a href="' + feature.properties.Website + '" target="_blank" >'+ feature.properties.Address + '</a>';
 	  layer.bindPopup(popupContent);
