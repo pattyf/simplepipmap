@@ -127,7 +127,7 @@
   var customLayer = L.geoJson(null, {
   onEachFeature: function(feature, layer) {
 	  var popupContent = "doh " + feature.properties.Title;
-	  popupContent += "<br>"+ feature.properties.Address;
+	  popupContent += '<br> <a href="http://google.com" target="_blank" >'+ feature.properties.Address + '</a>';
 	  layer.bindPopup(popupContent);
     //layer.bindPopup(feature.properties.Title);
   }
