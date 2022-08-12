@@ -4,6 +4,8 @@
 and
 https://github.com/csessig86/leaflet-markers-within-radius
 
+
+You can view the map here: https://pattyf.github.io/simplepipmap/
 ## To customize
 
 - You only need to make changes in **index.html** file and replace the **data.csv** file with your data in same format.
